@@ -1,0 +1,202 @@
+body {
+	margin: 0px;
+}
+
+/*Colors*/
+.white-bg {
+	background-color: #fff;
+}
+/*$white-color*/
+.white {
+	color: #fff;
+}
+
+.brown {
+	color: #A47D5E;
+}
+
+.sand-color {
+	color: #BDAD88;
+}
+
+.dirty-gray {
+	color: #C2BEBA;
+}
+
+/*Borders*/
+.border-bottom-gray { 
+	border-bottom: 1px solid #4D4D4D;
+}
+
+.border {
+	border: 1px solid black;
+}
+
+/*Text*/
+.font-uppercase {
+	text-transform: uppercase;
+}
+
+.font-2 {
+	font-size: 2em;
+}
+
+.letter-space2 {
+	letter-spacing: 2px;
+}
+
+/*Display*/
+.d-none {
+	display: none;
+}
+
+/*End of the common styles*/
+/*Bakery page*/
+#bakery-web p,
+#bakery-web a {
+	font-family: 'Roboto', sans-serif;
+}
+
+#bakery-web .border-bottom-gray {
+	border-bottom: 1px solid #D6D4C9;
+}
+
+#bakery-web .border-top-gray {
+	border-top: 1px solid #D6D4C9;
+}
+
+/*Navigation*/
+#bakery-web .hero-image h1 {
+	font-size: 5rem;
+}
+
+#bakery-web .hero-image .main-btn{
+	background: rgba(85, 83, 76, 0.6);
+} 
+  
+/*Hero Image*/ 
+#bakery-web .hero-image {
+	background-image: url(../img/hero.png);
+	background-repeat: no-repeat;
+	height: 500px;
+    background-size: cover;
+    background-color: lightgrey;
+}
+
+#bakery-web .dropdown a:hover,
+#bakery-web .dropdown a:focus,
+#bakery-web .dropdown a:active {
+    background: rgba(85, 83, 76, 0.6) !important;
+    color: #FFFFFF; 
+}
+
+#bakery-web .dropdown {
+    left: 0px;
+    right: 0px;
+    top: 109%;
+}
+
+/*About Chef*/
+#bakery-web .about-chef {
+	background-image: url(../img/gradient-bg.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*About food*/
+#bakery-web .about-food {
+	background-image: url(../img/about-food-bg.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bakery-web .menu-page-bg {
+	background-image: url(../img/menu-page.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+} 
+
+/* Menu promo*/
+.menu-promo {
+	background-image: url(../img/menu-bg.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#bakery-web .menus-bg {
+	background-image: url(../img/menus.png);
+	background-repeat: no-repeat;
+    background-size: cover;
+    height: 653px;
+}
+
+/* Recipe section*/
+.recipe {
+	background-color: #F2F1E8;
+}
+
+/*Media Queries*/
+@media (max-width: 830px) {
+    #bakery-web nav .sm-col-10 {
+    	text-align: left !important;
+    }
+    #bakery-web .hero-image h1 {
+    	font-size: 3em;
+    }
+    #bakery-web .hero-image p {
+    	font-size: 1em;
+    }
+    #bakery-web .sm-mt0{
+    	margin-top: 0px;
+    }
+    #bakery-web .sm-pt2{
+    	padding-top: 2em;
+    }
+}
+
+@media (max-width: 460px) {
+    #bakery-web .xs-p0{
+    	padding: 0px;
+    }
+    #bakery-web .xs-mt0{
+    	margin-top: 0px;
+    }
+    #bakery-web .about-food .carousel{
+    	padding-bottom: 4em;
+    }
+    #bakery-web .menu-promo img{
+        width: 70%;
+    }
+    #bakery-web .hero-image p {
+        margin-bottom: 2em;
+    }
+}
+
+@media (max-width: 400px) {
+    #bakery-web .about-food .mini-carousel{
+    	display: none;
+    }
+    #bakery-web .about-food .carousel-mobile{
+    	display: block;
+    	margin-top: 2em;
+    }
+    #bakery-web .menu-promo h1{
+        padding-top: 0px;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    #bakery-web .menu-promo p{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    #bakery-web footer a {
+        display: block;
+    }
+    #bakery-web footer span {
+        display: none;
+    }
+     #bakery-web .xs-mb1{
+        margin-bottom: 1em;
+    }
+}
+    
