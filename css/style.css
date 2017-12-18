@@ -100,13 +100,6 @@ body {
     top: 109%;
 }
 
-/*About Chef*/
-#bakery-web .about-chef {
-	background-image: url(../img/gradient-bg.png);
-	background-repeat: no-repeat;
-    background-size: cover;
-}
-
 /*About food*/
 #bakery-web .about-food {
 	background-image: url(../img/about-food-bg.jpg);
@@ -157,6 +150,17 @@ body {
     	padding-top: 2em;
     }
 }
+
+@media (max-width: 650px) { 
+    #bakery-web .collapsed {
+        display: block;
+    }
+    #bakery-web .collapse {
+        display: none;
+    }
+}
+
+
 
 @media (max-width: 460px) {
     #bakery-web .xs-p0{
